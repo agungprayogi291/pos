@@ -6,7 +6,7 @@ app.use(express.urlencoded({extended: true}))
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.json({ title: 'POS RestAPi', message:'Welcome' });
+  res.json({ title: 'POS RestAPi', message:'Welcome ' });
 });
 
 
