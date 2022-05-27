@@ -12,5 +12,6 @@ router.get('/', function(req, res, next) {
   res.json({ title: 'POS RestAPi', message:'Welcome ' });
 });
 // router.get('/user',user)
+router.get('/user',user.getAll)
 router.get('/brand',brand.getAll);
 module.exports = router;
